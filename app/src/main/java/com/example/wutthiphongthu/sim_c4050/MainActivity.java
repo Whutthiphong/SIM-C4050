@@ -124,7 +124,7 @@ public class MainActivity extends AppCompatActivity {
                 mReader.setScanCallback(doc_scan);
             }
         }
-    }
+    } 
     private class DecodeThread extends Thread {
         private boolean isContinuous = false;
         private long sleepTime = 1000;
